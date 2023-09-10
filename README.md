@@ -42,8 +42,6 @@ java开发工具集合，包含日期格式化、参数解析、智能日志、�
 
 #### 1 maven引入
 
-TimeTracker  
-
 jar包已上传到github package仓库中：  
 https://github.com/useraddZYB?tab=packages   
 https://github.com/useraddZYB/artist-util/packages/1941045
