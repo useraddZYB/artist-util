@@ -1,28 +1,28 @@
 # artist-util
-java开发工具集合，包含日期格式化、参数解析、智能日志、多线程、频控。10几年开发经验沉淀、零依赖的java开发工具集合。
+java开发工具集合，包含：日期格式化、参数解析、智能日志、线程池、计时器、频控。10几年开发经验沉淀、零依赖的java开发工具集合。
 
 
 ## 二，集成使用
 
 #### 1 common 通用工具  
 
-* ParamUtil：parse&format、check&assert、http get、size 等等  
+* ParamUtil：parse&format、check&assert、http get、size等等（5星推荐）
 * MachineUtil
 
 #### 2 concurrent 多线程并发  
 
-* ThreadPoolFactory：便捷构造线程池
+* ThreadPoolFactory：便捷构造线程池（4星推荐）
 * BatchExecuteUtil：并发执行
 
-#### 3 data structure 数据结构  
+#### 3 data structure 数据结构
 
+* FuncResult：方法"复杂"返回值（4星推荐）
 * DoubleHashMap：双重map
-* LRULinkedHashMap
 
 #### 4 date 线程安全的日期工具  
 
-* DateUtill：日期parse format 计算
-* Watch：多段计时工具
+* DateUtill：日期parse format 计算（5星推荐）
+* Watch：多段计时工具（5星推荐）
 
 #### 5 limiter 限流工具  
 
@@ -50,6 +50,6 @@ https://github.com/useraddZYB/artist-util/packages/1941045
 <dependency>
     <groupId>com.programmerartist.artistutil</groupId>
     <artifactId>artist-util</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```  
